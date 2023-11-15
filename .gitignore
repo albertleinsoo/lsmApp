@@ -5,3 +5,4 @@ tmp.csv
 # save folder #
 ###################
 saved_params/*
+!saved_params/.gitkeep
