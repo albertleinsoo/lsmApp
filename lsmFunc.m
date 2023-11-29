@@ -171,7 +171,7 @@ aeP2sig = @(thi) aeTh(thi) + 2*sigAe(thi);
 aeM2sig = @(thi) aeTh(thi) - 2*sigAe(thi);
 
 % Last param sets position and size proportional to screen
-f = figure('Name','Least Square Method', 'units','normalized','outerposition',[0.4 0.4 0.6 0.6]);
+f = figure('Name','Least Square Method', 'NumberTitle', 'off', 'units','normalized','outerposition',[0.4 0.4 0.6 0.6]);
 
 hold on;
  
